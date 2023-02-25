@@ -1,6 +1,6 @@
 # The SECOM cipher GUI application
 
-This is simple encipher/decipher GUI application that allows you to work with the SECOM cipher.
+This is a simple encipher/decipher GUI application that allows you to work with the SECOM cipher.
 
 It was implemented according to the original <a href="https://www.ciphermachinesandcryptology.com/en/secom.htm">Dirk Rijmenants's</a> description.
 
