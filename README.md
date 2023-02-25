@@ -44,6 +44,22 @@ This software is licensed under GNU GENERAL PUBLIC LICENSE Version 3 or later.
 
 https://www.gnu.org/licenses/gpl-3.0.html
 
+## An issue I faced
+
+There was an issue I faced when I tried to render the help html page in the JEditorPane.
+
+There are few very long chains of characters but JEditorPane cannot wrap such strings by default.
+
+Moreover, by default JEditorPane cannot wrap text inside "pre" tags at all.
+
+I had to look into this issue and I found a solution, so now everything is good rendered, as far as embedded HTML 3.2 allows.
+
+Isolated sollution you can find in my other repository:
+
+https://github.com/asilichenko/swing-html-paragraph-wrap
+
+![Screenshot of default state](https://github.com/asilichenko/swing-html-paragraph-wrap/blob/master/img/default.jpg) ![Screenshot of a result](https://github.com/asilichenko/swing-html-paragraph-wrap/blob/master/img/screenshot.jpg)
+
 ## The SECOM cipher
 
 <p>
