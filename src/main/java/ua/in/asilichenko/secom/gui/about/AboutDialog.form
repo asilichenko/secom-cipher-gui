@@ -126,7 +126,7 @@
                         <constraints/>
                         <properties>
                           <font size="14"/>
-                          <text value="&lt;html&gt;&lt;a href=&quot;#&quot;&gt;LGPL-3.0-or-later&lt;/a&gt;&lt;/html&gt;"/>
+                          <text value="&lt;html&gt;&lt;a href=&quot;#&quot;&gt;GPL-3.0-or-later&lt;/a&gt;&lt;/html&gt;"/>
                         </properties>
                       </component>
                     </children>

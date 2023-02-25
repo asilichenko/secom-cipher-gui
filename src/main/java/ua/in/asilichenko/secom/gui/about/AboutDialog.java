@@ -1,17 +1,18 @@
 /*
  * Copyright (c) 2023 Oleksii Sylichenko.
  *
- * Licensed under the LGPL, Version 3.0 or later (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
  *
- * https://www.gnu.org/licenses/lgpl-3.0.en.html
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
  *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 package ua.in.asilichenko.secom.gui.about;
 
@@ -120,7 +121,7 @@ public abstract class AboutDialog extends JDialog {
         licenseLinkLbl = new JLabel();
         Font licenseLinkLblFont = this.$$$getFont$$$(null, -1, 14, licenseLinkLbl.getFont());
         if (licenseLinkLblFont != null) licenseLinkLbl.setFont(licenseLinkLblFont);
-        licenseLinkLbl.setText("<html><a href=\"#\">LGPL-3.0-or-later</a></html>");
+        licenseLinkLbl.setText("<html><a href=\"#\">GPL-3.0-or-later</a></html>");
         panel5.add(licenseLinkLbl);
         final JPanel panel6 = new JPanel();
         panel6.setLayout(new FlowLayout(FlowLayout.LEFT, 0, 0));
