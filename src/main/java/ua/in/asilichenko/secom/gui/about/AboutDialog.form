@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ua.in.asilichenko.secom.gui.about.AboutDialog">
+  <grid id="27dc6" binding="contentPane" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="582" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="96e70" layout-manager="FlowLayout" hgap="15" vgap="10" flow-align="2">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5d7cc" class="javax.swing.JButton" binding="closeBtn">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <text value="Close"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="6e674" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="26" vgap="-1">
+        <margin top="32" left="26" bottom="16" right="32"/>
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6a101" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="52" height="52"/>
+              </grid>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="icon/icon52.png"/>
+              <text value=""/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <vspacer id="b4cdc">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <grid id="53ae8" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="5">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="8060" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="Version: 1.0"/>
+                </properties>
+              </component>
+              <component id="406c2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value="Secure Communication Cipher"/>
+                </properties>
+              </component>
+              <component id="e4ea2" class="javax.swing.JLabel" binding="aboutLbl">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12828863"/>
+                  <font size="14"/>
+                  <opaque value="false"/>
+                  <text value="This program is freeware"/>
+                </properties>
+              </component>
+              <vspacer id="e90be">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="2" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="24"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <vspacer id="792c4">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="24"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <grid id="85443" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="56eeb" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="0">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="c99ec" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <font size="14"/>
+                          <text value="License: "/>
+                        </properties>
+                      </component>
+                      <component id="c5fad" class="javax.swing.JLabel" binding="licenseLinkLbl">
+                        <constraints/>
+                        <properties>
+                          <font size="14"/>
+                          <text value="&lt;html&gt;&lt;a href=&quot;#&quot;&gt;LGPL-3.0-or-later&lt;/a&gt;&lt;/html&gt;"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="eacad" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="0">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="e75b0" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <font size="14"/>
+                          <text value="Original idea: "/>
+                        </properties>
+                      </component>
+                      <component id="ffd73" class="javax.swing.JLabel" binding="ideaOwnerLinkLbl">
+                        <constraints/>
+                        <properties>
+                          <font size="14"/>
+                          <text value="&lt;html&gt;&lt;a href=&quot;#&quot;&gt;Dirk Rijmenants&lt;/a&gt;&lt;/html&gt;"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="29353" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="0">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="6f396" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <font size="14"/>
+                          <text value="Copyright © 2023 "/>
+                        </properties>
+                      </component>
+                      <component id="deec4" class="javax.swing.JLabel" binding="authorLinkLbl">
+                        <constraints/>
+                        <properties>
+                          <font size="14"/>
+                          <text value="&lt;html&gt;&lt;a href=&quot;&quot;&gt;Oleksii Sylichenko&lt;/a&gt;&lt;/html&gt;"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="d7e52" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="0">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="62a50" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <font size="14"/>
+                          <text value="App icon: "/>
+                        </properties>
+                      </component>
+                      <component id="9d925" class="javax.swing.JLabel" binding="iconLinkLbl">
+                        <constraints/>
+                        <properties>
+                          <font size="14"/>
+                          <text value="&lt;html&gt;&lt;a href=&quot;https://www.cipherhistory.com&quot;&gt;Cipher History&lt;/a&gt;&lt;/html&gt;"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
