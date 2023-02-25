@@ -40,9 +40,9 @@ This option you can find in the settings of your IntelliJ IDEA:
 
 ## License
 
-This software is licensed under GNU LESSER GENERAL PUBLIC LICENSE Version 3 or later.
+This software is licensed under GNU GENERAL PUBLIC LICENSE Version 3 or later.
 
-https://www.gnu.org/licenses/lgpl-3.0.en.html
+https://www.gnu.org/licenses/gpl-3.0.html
 
 ## The SECOM cipher
 
