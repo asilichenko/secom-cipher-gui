@@ -1,5 +1,50 @@
 # The SECOM cipher GUI application
 
+This is simple encipher/decipher GUI application that allows you to work with the SECOM cipher.
+
+It was implemented according to the original <a href="https://www.ciphermachinesandcryptology.com/en/secom.htm">Dirk Rijmenants's</a> description.
+
+Below you can find [my modified version](#the-secom-cipher) of this description.
+
+The application contains this description as well - just click "Help" button.
+
+## Main window
+
+<img src="img/screenshots/main-window.jpg" width="480">
+
+## About
+
+<img src="img/screenshots/about.jpg" width="480">
+
+## System requirenments
+
+- Java 19
+
+## How to run
+
+You have two options:
+- run GUI application: ![MainApp.java](src/main/java/ua/in/asilichenko/secom/MainApp.java)
+- run Demo example console application: ![DemoExampleApp.java](src/main/java/ua/in/asilichenko/secom/DemoExampleApp.java)
+
+## For developers
+
+This software was created with JetBrains IntelliJ IDEA, GUI Forms as well.
+
+Despite that fact, you can open it with any other IDE.
+
+My IntelliJ IDEA was configured to autogenerate GUI code and special runner was added into Maven's dependencies.
+
+This option you can find in the settings of your IntelliJ IDEA:
+
+<img src="img/Idea%20GUI%20Designer%20config.jpg" width="480">
+
+## License
+
+This software is licensed under GNU LESSER GENERAL PUBLIC LICENSE Version 3 or later.
+
+https://www.gnu.org/licenses/lgpl-3.0.en.html
+
+## The SECOM cipher
 
 <p>
     The SECOM cipher is a hand cipher to encrypt a message, containing letters, numbers and spaces.
@@ -15,7 +60,7 @@
     <li>disrupted Columnar Transposition.</li>
 </ol>
 
-<H1>EXAMPLE</H1>
+### EXAMPLE
 
 <p>Plain text:</p>
 
@@ -25,7 +70,7 @@
 
 <pre>MAKE NEW FRIENDS BUT KEEP THE OLD</pre>
 
-<H1>INITIAL PHASE: KEY PHRASE PROCESSING</H1>
+### INITIAL PHASE: KEY PHRASE PROCESSING
 
 <p>
     Take the first 20 letters of the key phrase (letters only, skip spaces) and split them into two halves.
@@ -86,7 +131,7 @@ MAKENEWFRI ENDSBUTKEE
 8238965327
 </pre>
 
-<H1>PHASE 1: THE STRADDLING CHECKERBOARD</H1>
+### PHASE 1: THE STRADDLING CHECKERBOARD
 
 <p>
     Take the last 10 digits of the LFG-sequence and number them
@@ -171,7 +216,7 @@ P Q R U V W X Y Z *
  2  | 0 <span style="color:red"><b>1</b></span> 2 3 4 5 6 7 8 9
 </pre>
 
-<h2>The Straddling Checkerboard encoding</h2>
+#### The Straddling Checkerboard encoding
 
 <p>
     Replace each character of the plain text with numbers from the Checkerboard using the key:
@@ -203,7 +248,7 @@ U  S E *  D  E A D  D  R  O P  *  A S
 
 <pre>646760903106464068607960212028286631609060390316638898609647517399405606218603087303064066607160621627380</pre>
 
-<H1>PHASE 2: COLUMNAR TRANSPOSITION</H1>
+### PHASE 2: COLUMNAR TRANSPOSITION
 
 <p>
     To determine the number of columns for the two transpositions,
@@ -222,7 +267,7 @@ U  S E *  D  E A D  D  R  O P  *  A S
     Key sizes for the columnar transpositions are 12 and 11 respectively.
 </p>
 
-<h2>Columnar transposition keys generation</h2>
+#### Columnar transposition keys generation
 
 <p>
     Take the 10 digits from the second half of the key phrase,
@@ -282,7 +327,7 @@ U  S E *  D  E A D  D  R  O P  *  A S
 --------
 <span style="color:#00AA00">09792855878</span></pre>
 
-<h2>The first transposition</h2>
+#### The first transposition
 
 <p>Simple columnar transposition:</p>
 
@@ -315,7 +360,7 @@ U  S E *  D  E A D  D  R  O P  *  A S
 088089367 60167630 461031162 962364063 008900808 642665206 642987841 662699062 376095770 06314006 700083606 19636631
 </pre>
 
-<H1>PHASE 3: THE SECOND TRANSPOSITION</H1>
+### PHASE 3: THE SECOND TRANSPOSITION
 
 <p>
     The second transposition is a disrupted columnar transposition.
@@ -396,7 +441,7 @@ U  S E *  D  E A D  D  R  O P  *  A S
 77719 38622 00032 04239 60038 29683 14608 06071 78016 73606 06064 63536 06968 67403 69681 89001 40219 06662 60666 08631 60549
 </pre>
 
-<H1>MESSAGE DECRYPTION PROCESS</H1>
+### MESSAGE DECRYPTION PROCESS
 
 <p>
     Firstly use the key phrase to calculate the keys
