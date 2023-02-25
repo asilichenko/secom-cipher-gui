@@ -37,8 +37,8 @@ import static java.nio.charset.StandardCharsets.UTF_8;
 public class AboutDialogImpl extends AboutDialog {
 
     private static final String TITLE = "About SECOM Cipher";
-    private static final int WIDTH = 560;
-    private static final int HEIGHT = 420;
+    private static final int WIDTH = 630;
+    private static final int HEIGHT = 470;
 
     private static final URL CONTENT_URL = Resources.getResource("html/about.html");
 
