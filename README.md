@@ -4,7 +4,7 @@ This is a simple encipher/decipher GUI application that allows you to work with 
 
 It was implemented according to the original <a href="https://www.ciphermachinesandcryptology.com/en/secom.htm">Dirk Rijmenants's</a> description.
 
-Below you can find [my modified version](#the-secom-cipher) of this description.
+Below you can find [my modified version](#the-secom-cipher) of that description.
 
 The application contains this description as well - just click "Help" button.
 
